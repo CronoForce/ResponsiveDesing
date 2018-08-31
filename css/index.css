@@ -200,7 +200,124 @@ h5{
     margin: 0 auto;
     max-width: 1280px;
 }
+.utilidad{
+    position: relative;
+    background-color: #F3F4F8;
+}
 .utilidad h3{
     margin: 0 0 20px;
+    font-size: 24px;
+    color: #3D4351;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
 }
+.text_tres{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28,54,83,.6);
+    margin: 0 0 10px;
+}
+.col-md-5{
+    width: 46%;
+}
+.col-md-offset-7{
+    margin-left: 58.3%;
+}
+.utilidad ul.utilidad-items li{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #E6E9EA;
+}
+.utilidad ul.utilidad-items li:last-child{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.utilidad ul.utilidad-items{
+    margin-top: 50px;
+}
+.utilidad-icon{
+    width: 48px;
+    padding: 6px 0 0;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.utilidad-objetos{
+    padding: 6px 0 0;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.utilidad-content{
+    display: inline-block;
+    width: 75%;
+}
+.utilidad .objetos{
+    position: absolute;
+    bottom: -272px;
+    right: 61%;
+}
+.devices{
+    position: relative;
+}
+.ipad{
+    width: 706px;
+    height: 1002px;
+    background: url(../assets/img/ipad-device.png) center center no-repeat;
+    z-index: 1;
+}
+.iphone{
+    width: 304px;
+    height: 620px;
+    background: url(../assets/img/iphone-device.png) center center no-repeat;
+    position: absolute;
+    left: 530px;
+    bottom: 129px;
+    z-index: 2;
+}
+.diseño{
+    position: relative;
+    background-color: #fff;
+    z-index: 3;
+}
+.diseño h3{
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #3D4351;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.diseño-content{
+    width: 73%;
+    position: relative;
+    left: 14%;
+}
+.diseño a:hover{
+    background-color: #FF5274 !important;
+    color: #FFF !important;
+}
+.diseño a{
+    position: relative;
+    margin-top: 30px; 
+    left: 14%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.pc-diseño{
+    position: absolute;
+    bottom: -272px;
+    left: 50%;
+    top: 115px;
+}
+.pc{
+    width: 922px;
+    height: 537px;
+    background: url(../assets/img/macbook-pro.png) center center no-repeat;
+    z-index: 4;
+}
+
 
