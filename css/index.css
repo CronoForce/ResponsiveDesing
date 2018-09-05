@@ -151,7 +151,7 @@ div.hero-content .btn-accent:hover{
     font-size: 2.5rem !important;
     color: #FFF;
     padding-top: 30px;
-    animation: efect 900ms alternate infinite linear;
+    animation: efect 2s alternate infinite linear;
 }
 @keyframes efect {
     0% {transform: translateY(0px);}
@@ -279,6 +279,7 @@ h5{
     z-index: 2;
 }
 .diseño{
+    overflow: hidden;
     position: relative;
     background-color: #fff;
     z-index: 3;
@@ -314,10 +315,99 @@ h5{
     top: 115px;
 }
 .pc{
-    width: 922px;
-    height: 537px;
+    width: 916px;
+    height: 540px;
     background: url(../assets/img/macbook-pro.png) center center no-repeat;
+    position: absolute;
+    top: -17px;
+    left: 50%;
+    z-index: 4;
+    box-sizing: border-box;
+}
+.diamante{
+    min-height: 500px;
+    background: url(../assets/img/polygonal-bg.jpg) center center no-repeat #333844;
+    margin-top: 120px;
+    padding-bottom: 190px;
+    position: relative;
+}
+.diamante h2{
+    color: #fff;
+    margin: 0 0 20px;
+    font-size: 40px;
+    font-weight: 300;
+}
+.text_center{
+    text-align: center;
+}
+.diamante i{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #F69D52;
+    vertical-align: 15px;
+    margin-left: -8px;
+    font-style: normal; 
+}
+.text_cuatro{
+    font-size: 15px;
+    line-height: 29px;
+    color: #ACB1B4;
+    padding: 20px;
+}
+.diamante a:hover{
+    background-color: #FF5274 !important;
+    color: #FFF !important;
+}
+.diamante-img{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    bottom: -90px;
+    left: 42%;
     z-index: 4;
 }
+.datos-diamante{
+    position: relative;
+    background-color: #F3F4F8;
+}
+.datos-diamante h3{
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #3D4351;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.datos-diamante .content{
+    padding-right: 15px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.separador{
+    margin-top: 65px;
+}
+.datos-izq{
+    float: left;
+    width: 47%;
+    padding-right: 100px;
+    border-right: solid 1px #E6E9EA;
+}
+.datos-izq h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+.datos-der{
+    float: left;
+    width: 47%;
+    padding-left: 100px;
+}
+.datos-der h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+
 
 
