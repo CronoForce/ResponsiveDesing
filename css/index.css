@@ -25,7 +25,7 @@ header{
     width: 85%;
     margin: 0 auto;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 50px 0px;
+    padding: 25px 0px;
 }
 .navegador{
     position: fixed;
@@ -408,6 +408,138 @@ h5{
     font-size: 15px;
     font-weight: 500;
 }
-
-
+.blog{
+    background-color: #F3F4F8;
+    padding-bottom: 120px;
+    text-align: center;
+}
+.content-img{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+figure{
+    margin: 0 !important;
+}
+.post-img-uno{
+    position: relative;
+    overflow: hidden;
+}
+.img_uno{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 300ms ease-in-out;
+}
+.img-uno-blog{
+    width: 100%;
+    height: auto;
+    transition: all 300ms ease-in-out;
+}
+.blog-gallery{
+    width: 33.33333%;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-height: 1px;
+}
+.post-img-uno:hover .img-uno-blog{
+    transform: scale(1.1);
+}
+.mask{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+.post-img-uno:hover .mask{
+    opacity: 1;
+}
+.lupa{
+    color: #fff;
+    font-size: 1.8rem !important;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 25px;
+    right: 35px;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+.post-img-uno:hover .lupa{
+    opacity: 1;
+    z-index: 4;
+}
+.blog a{
+    color: #FF5274;
+}
+.blog h2{
+    font-size: 11px !important;
+    font-weight: 500;
+    margin-top: 35px;
+    color: #ACB1B4 ;
+    text-transform: uppercase;
+}
+.blog p a{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28, 54, 83, .6);
+    padding-bottom: 20px;
+    margin: 0 0 10px;
+}
+.btn{
+    box-shadow: none;
+}
+.next{
+    vertical-align: -5px;
+    font-size: 20px !important;
+}
+.light-box{
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.432);
+}
+.light-box .img{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid 5px white;
+    border-radius: 1%;
+}
+.light-box .cerrar{
+    z-index: 2;
+    position: absolute;
+    top: -13px;
+    right: -14px;
+    margin: auto;
+    float: left;
+    width: 30px;
+}
+.light-content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 543px;
+    height: 310px;
+}
 
