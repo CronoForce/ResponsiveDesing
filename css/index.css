@@ -37,7 +37,7 @@ section.navegador.is-down{
 }
 .navegador.is-down header{
     border: 0;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 header .logo{
     display: inline-block ;
@@ -504,7 +504,7 @@ figure{
     vertical-align: -5px;
     font-size: 20px !important;
 }
-.light-box{
+.light-box1{
     z-index: 1000;
     width: 100%;
     height: 100%;
@@ -513,7 +513,7 @@ figure{
     left: 0;
     background: rgba(0, 0, 0, 0.432);
 }
-.light-box .img{
+.light-box1 .img{
     position: relative;
     top: 0;
     bottom: 0;
@@ -523,7 +523,63 @@ figure{
     border: solid 5px white;
     border-radius: 1%;
 }
-.light-box .cerrar{
+.light-box1 .cerrar{
+    z-index: 2;
+    position: absolute;
+    top: -13px;
+    right: -14px;
+    margin: auto;
+    float: left;
+    width: 30px;
+}
+.light-box2{
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.432);
+}
+.light-box2 .img{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid 5px white;
+    border-radius: 1%;
+}
+.light-box2 .cerrar{
+    z-index: 2;
+    position: absolute;
+    top: -13px;
+    right: -14px;
+    margin: auto;
+    float: left;
+    width: 30px;
+}
+.light-box3{
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.432);
+}
+.light-box3 .img{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid 5px white;
+    border-radius: 1%;
+}
+.light-box3 .cerrar{
     z-index: 2;
     position: absolute;
     top: -13px;
@@ -542,4 +598,207 @@ figure{
     width: 543px;
     height: 310px;
 }
-
+.slider{
+    background: url('../assets/img/testimonials-bg.jpg') center center no-repeat #333844;
+    background-size: cover;
+    height: 500px !important;
+}
+.slider .row .col{
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel.carousel-slider{
+    top: -120px;
+}
+.carousel.carousel-slider .carousel-item{
+    padding: 100px 0;
+}
+.imgslide1,.imgslide2, .imgslide3{
+    width: 82px;
+    height: 82px;
+    margin: 0 auto;
+}
+.imgslide1{
+    background: url('../assets/img/mani.jpg');
+    background-size: cover;
+}
+.imgslide2{
+    background: url('../assets/img/130.jpg');
+    background-size: cover;
+}
+.imgslide3{
+    background: url('../assets/img/avatar@2x.jpg');
+    background-size: cover;
+}
+.arrowright i, .arrowleft i{
+    color: rgba(255,255,255,1)
+}
+.arrowright,.arrowleft{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.arrowleft{
+    left: 80px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    opacity: 0;
+    transform: translateX(-80px);
+}
+.arrowright{
+    right: 80px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    opacity: 0;
+    transform: translateX(80px);
+}
+.carousel:hover .arrowright, .carousel:hover .arrowleft{
+    opacity: 1;
+    transform: translateX(0);
+}
+.h2-slider{
+    color: #fff;
+    font-size: 40px !important;
+    font-weight: 300 !important;
+    font-style: italic;
+    margin: 30px 0;
+}
+.h5-slider{
+    font-weight: 300 !important;
+    color: #ACB1B4;
+    letter-spacing: 2px;
+}
+.formulario{
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+}
+.formulario h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.text-formulario{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28,54,83,.6);
+    padding-bottom: 20px;
+}
+.items-form{
+    width: 45%;
+    height: 55px;
+    margin: 0 auto 10px;
+    border-radius: 5px;
+    border: 1px solid #E6E9EA;
+    text-align: left;
+    position: relative;
+}
+.mail{
+    font-size: 20px !important;
+    position: absolute;
+    top: 30%;
+    margin-left: 15px;
+    padding-right: 15px;
+    color: #FF5274;
+    border-right: solid 1px #ACB1B4;
+}
+.text-form{
+    padding-left: 68px !important;
+    width: 84% !important; 
+    height: 100% !important;
+    border-radius: 6px !important;
+    border: none !important;
+}
+input {
+    box-shadow: none !important;
+    border: 0 !important;
+    transition: 0 !important;
+}
+input:focus {
+    border:1px solid #4D90FE !important;
+    -webkit-box-shadow: 0px 0px 3px  #4D90FE !important;
+    box-shadow: 0px 0px 3px  #4D90FE !important;
+}
+.btn-login{
+    padding: 15px 0;
+    border-radius: 3px;
+    width: 45%;
+    font-size: 13px;
+    background-color: #FF5274;
+}
+.btn-small:hover{
+    background-color: rgb(201, 62, 90);
+}
+  .go-to-up{
+    height: 60px;
+    width: 70px;
+    position: absolute;
+    right: 122px;
+    text-align: center;
+  }
+  .pre-footer{
+    height: 60px;
+    background-color: #495061;
+  }
+  .go-to-up a{    
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(0,0,0,.15);
+  }
+  .flecha-top{
+    font-size: 30px !important;
+    line-height: 55px !important;
+  }
+  .page-footer{
+    background-color: #3D4351;
+  }
+  .div-nav{
+    text-decoration: none;
+    list-style: none;
+    border-top: solid 1px #4E566C;
+    padding-top: 25px;
+    margin-bottom: 45px;
+  }
+  .links{
+    margin: 120px 0;
+  }
+  .links p{
+    color: #ACB1B4;
+  }
+  .links a{
+    color: #fff;
+  }
+  .div-nav li{
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .div-nav a{
+    font-size: 13px !important;
+    color: #fff;
+  }
+  .social{
+    position: absolute;
+    background-color: #373D4A;
+    right: 0;
+    width: 40%;
+    padding: 142px 0 0 70px;
+  }
+  .col-md-7{
+    width: 58.33333333%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+.heart{
+    width: 15px;
+}
+.page-footer .container{
+    width: 85%;
+}
